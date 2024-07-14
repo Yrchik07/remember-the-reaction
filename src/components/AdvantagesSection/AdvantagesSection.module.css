@@ -1,0 +1,19 @@
+.advantagesSection{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.title{
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.list{
+  list-style: none;
+  padding: 0
+}
+
+.item{
+  font-size: 20px;
+  margin-bottom: 10px;
+}

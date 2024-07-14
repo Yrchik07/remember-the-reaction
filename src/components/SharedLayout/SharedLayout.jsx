@@ -1,16 +1,17 @@
 import { Outlet } from 'react-router-dom';
+import styles from './SharedLayout.module.css'
 
 const SharedLayout = () => {
   return (
-    <div>
-      <header>
-        {/* Header content */}
+    <div className={styles.layout}>
+      <header className={styles.header}>
+        <h1>Application Header</h1>
       </header>
-      <main>
+      <main className={styles.main}>
         <Outlet />
       </main>
-      <footer>
-        {/* Footer content */}
+      <footer className={styles.footer}>
+        <p>Application Footer</p>
       </footer>
     </div>
   );
